@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family:'Poppins', sans-serif;
+  background:#0f172a;
+  color:white;
+  overflow-x:hidden;
+}
+
+a{
+  text-decoration:none;
+}
+
+ul{
+  list-style:none;
+}
+
+.container-custom{
+  width:90%;
+  max-width:1200px;
+  margin:auto;
+}
+
+@keyframes spinSlow {
+
+from {
+transform: rotate(0deg);
+}
+
+to {
+transform: rotate(360deg);
+}
+
+}
+
+.animate-spin-slow {
+animation: spinSlow 8s linear infinite;
+}
