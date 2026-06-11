@@ -94,7 +94,11 @@ The project focuses on delivering a clean user interface, smooth animations, res
 * VS Code
 
 ---
+## Live Preview
 
+https://multipagewebapp.netlify.app/
+
+-----------
 ## 📂 Project Structure
 
 ```text
@@ -126,7 +130,7 @@ src/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/synent-technologies.git
+git clone https://github.com/Tejas-Web-Design/synent-task7-multipagewebsite-tejasri
 ```
 
 Navigate into the project:
